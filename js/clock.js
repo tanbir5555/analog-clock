@@ -18,7 +18,7 @@ clockCircle.setAttribute("style","width:600px;height:600px;border-radius:50000px
 
 
 
-clockCentralDot.setAttribute("style","width:10px;height:10px;border-radius:50%;background:"+colors.colorTheme+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)")
+clockCentralDot.setAttribute("style","width:10px;height:10px;border-radius:50%;background:"+colors.colorTheme+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:9999999999999999")
 
 
 //numbers inside clock
@@ -61,14 +61,14 @@ for(let clockNumber=0;clockNumber<12;clockNumber++){
 let hourMark=cr("div")
 let HMark=cr('div')
 hourMark.setAttribute("style", "width:100%;height:100%;position:absolute;background:#ffff5500")
-HMark.setAttribute("style", "width:5px;height:78px;background:#fff;position:absolute;left:50%;top:37%;z-index:1000;transform:translate(-50%, 0%);border-radius:50px")
+HMark.setAttribute("style", "width:5px;height:78px;background:#fff;position:absolute;left:50%;top:37%;z-index:500;transform:translate(-50%, 0%);border-radius:50px")
 hourMark.appendChild(HMark)
 
 
 let MinMark=cr("div")
 let MMark=cr('div')
 MinMark.setAttribute("style", "width:100%;height:100%;position:absolute;background:#ffff5500")
-MMark.setAttribute("style", "width:3px;height:120px;background:"+colors.colorTheme+";position:absolute;left:50%;top:30%;z-index:1000;transform:translate(-50%, 0%);border-radius:50px")
+MMark.setAttribute("style", "width:3px;height:120px;background:"+colors.colorTheme+";position:absolute;left:50%;top:30%;z-index:800;transform:translate(-50%, 0%);border-radius:50px")
 MinMark.appendChild(MMark)
 
 let secMark=cr("div")
