@@ -14,7 +14,7 @@ let clockCentralDot=cr("div");
 function Clock() {
     
 
-clockCircle.setAttribute("style","width:600px;height:600px;border-radius:50%;background:radial-gradient(#151520,#151520,#151520,#151520,#000,#000);box-shadow:0px 0px 10px rgba(0,0,0,0.50);border:2px solid "+colors.colorTheme+";position:relative;")
+clockCircle.setAttribute("style","width:600px;height:600px;border-radius:50000px;background:radial-gradient(#151520,#151520,#151520,#151520,#000,#000);box-shadow:0px 0px 10px rgba(0,0,0,0.50);border:2px solid "+colors.colorTheme+";position:relative;")
 
 
 
